@@ -19,13 +19,13 @@
 version: "v0.7.0"
 core:
     single_word:
-        reason: "原因"
-        status: "状态"
-        id: "ID"
-        timestamp: "时间戳"
-        contents: "内容"
-        pages: "页数"
-        usage: "用法"
+        reason: "原因" #
+        status: "状态" #
+        id: "ID" #
+        timestamp: "时间戳" #
+        contents: "内容" #
+        pages: "页数" #
+        usage: "用法" #
         leader: "队长" #
         party: "派对" #
         leave: "离开" #
@@ -72,7 +72,7 @@ velocity:
         pending_request: "<red>你已对玩家 <username> 发起了TPA请求，请等待对方处理!</red>"
         request_confirmation: "<green>你的TPA请求已发送给玩家 <username> !</green>"
         target_query:
-            query: "<gold>Hi， <username> 向您发起了TPA请求!</gold>"
+            query: "<gold>Hi，<username> 向您发起了TPA请求!</gold>"
             accept_tooltip: "接受 <username> 的TPA请求。" #
             deny_tooltip: "拒绝 <username> 的TPA请求。" #
         sender_accepted:
@@ -168,7 +168,7 @@ velocity:
             self_invite: "<red>你不能邀请自己参加自己的派对!</red>"
             already_a_member: "<red><username> 已在您的派对内!</red>"
         receiver_invite_query:
-            query: "<gray>Hi， <username> 邀请您加入TA们的派对!</gray>"
+            query: "<gray>Hi，<username> 邀请您加入TA们的派对!</gray>"
             hover:
                 accept: "接受派对邀请"
                 ignore: "忽略派对邀请"
@@ -232,12 +232,12 @@ velocity:
             add_friend: "<white>添加好友</white>"
             send_friend_request: "<yellow><u>点击发送好友申请。</u></yellow>"
         friend_request_query:
-            query: "<gray>Hi， <username> 请求添加您为TA的好友!</gray>"
+            query: "<gray>Hi，<username> 请求添加您为TA的好友!</gray>"
             hover:
                 accept: "同意好友申请"
                 ignore: "忽略好友申请"
         friend_joined:
-            resolved: "<gray>你的好友 <aqua hover:show_text:'点击对 <username> 发起好友聊天' click:suggest_command:'/fm <username>'><u><username></u></aqua> 上线了!</gray>"
+            resolved: <gray>你的好友 <aqua><hover:show_text:'点击对 <username> 发起聊天'><click:suggest_command:'/fm <username>'><u><username></u></click></hover></aqua> 上线了!</gray>"
             regular: "<gray>你的好友 <username> 上线了!</gray>"
         friend_leaves: "<gray>你的好友 <username> 已离线!</gray>"
         become_friends: "<green>你与 <username> 成为了好友!</green>"
@@ -247,11 +247,11 @@ velocity:
         join_message_empty:
             - "<gray>您有<friend_count>条待处理的好友申请!</gray>"
             - "<gray>Tips: 您可以使用以下命令处理</gray>"
-            - "<aqua click:suggest_command:'/friends requests <username>'><u>/friends requests <username></u></aqua>"
+            - "<aqua><click:suggest_command:'/friends requests <username>'><u>/friends requests <username></u></click></aqua>"
         join_message_countable:
             - "<gray>您有<friend_count>条待处理好友申请，来自玩家 <friend_requests> !</gray>"
             - "<gray>Tips: 您可以使用以下命令处理</gray>"
-            - "<aqua click:suggest_command:'/friends requests <username>'><u>/friends requests <username></u></aqua>"
+            - "<aqua><click:suggest_command:'/friends requests <username>'><u>/friends requests <username></u></click></aqua>"
     console_icons:
         attempting_registration: "?>>>?"
         registered: ">>>>>"
