@@ -71,6 +71,7 @@ velocity:
         no_requests: "<red><username> 最近没有向您发起任何TPA请求!</red>"
         pending_request: "<red>你已对玩家 <username> 发起了TPA请求，请等待对方处理!</red>"
         request_confirmation: "<green>你的TPA请求已发送给玩家 <username> !</green>"
+        not_friends: "<red>你和玩家 <username> 还不是好友，你只能对你的好友使用/tpa传送!</red>"
         target_query:
             query: "<gold>Hi，<username> 向您发起了TPA请求!</gold>"
             accept_tooltip: "接受 <username> 的TPA请求。" #
@@ -226,6 +227,7 @@ velocity:
             unfriend: "<red>删除好友 <username></red>"
             message: "<yellow>私聊好友 <username></yellow>"
             invite_party: "<blue>邀请玩家 <username> 到您的派对。</blue>"
+            tpa: "<gold>向好友 <username> 发起TPA传送请求。</gold>"
             offline: "<gray>离线</gray>"
             online: "<white>在线</white>"
             currently_playing: "<gray>正在游玩: </gray><aqua><family_name></aqua>"
