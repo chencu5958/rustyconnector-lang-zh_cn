@@ -48,7 +48,7 @@
 #
 # 如果您需要从旧版本更新配置，请查阅我们的配置迁移文档：
 #
-# https://github.com/Aelysium-Group/rusty-connector/wiki/Config-Migration
+# https://wiki.aelysium.group/rusty-connector/docs/updating/
 #
 version: 5
 

@@ -21,15 +21,10 @@ save-trashed-messages: true
 
 messaging:
 # 当服务器尝试注册时,是否应该记录日志?
-# 提示: 如果向代理端发出注册请求,则会通过日志的形式在控制台中展示
-#       此功能可能会导致代理端控制台出现垃圾信息刷屏
     registration: false
 
 # 当服务器尝试取消注册时，是否应该记录日志?
     unregistration: false
-
-# 当代理端要求所有服务器注册时，是否应该记录日志?
-    call-for-registration: false
 
 # 服务器对代理端发起ping请求时,是否应该记录日志?
     ping: false
